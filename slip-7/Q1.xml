@@ -1,4 +1,4 @@
-<? xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- Write a PHP script to read “Movie.xml” file and print all MovieTitle and ActorName of file using
 DOMDocument Parser. “Movie.xml” file should contain following information with at least 5 records
 with values. MovieInfoMovieNo, MovieTitle, ActorName ,ReleaseYear -->
