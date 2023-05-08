@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="items.css"?>
 <!-- Create XML file named “Item.xml”with item-name, item-rate, item quantity Store the details of 5
 Items of different Types -->
 <itemlist>

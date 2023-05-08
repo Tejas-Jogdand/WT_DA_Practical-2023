@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Write PHP script to read “book.xml” file into simpleXML object. Display attributes and elements.
+( simple_xml_load_file() function ) -->
+
+<bookList>
+    <book>
+        <bookName>Miracale Morning</bookName>
+        <bookAuther>xyz</bookAuther>
+        <bookNo>1</bookNo>
+    </book>
+    <book>
+        <bookName>5 am club</bookName>
+        <bookAuther>asd</bookAuther>
+        <bookNo>2</bookNo>
+    </book>
+    <book>
+        <bookName>get up sid</bookName>
+        <bookAuther>qwe</bookAuther>
+        <bookNo>3</bookNo>
+    </book>
+</bookList>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- create a student.xml file containing at least 5 student information -->
+<Class>
+    <student>
+        <name>Tejas</name>
+        <rollNo>642</rollNo>
+        <id>1</id>
+        <mobileNo>8055478154</mobileNo>
+    </student>
+    <student>
+        <name>Raj</name>
+        <rollNo>875</rollNo>
+        <id>3</id>
+        <mobileNo>990224785</mobileNo>
+    </student>
+    <student>
+        <name>Yash</name>
+        <rollNo>485</rollNo>
+        <id>5</id>
+        <mobileNo>911957842</mobileNo>
+    </student>
+</Class>

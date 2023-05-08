@@ -1,0 +1,28 @@
+<? xml version="1.0" encoding="UTF-8"?>
+<!-- Write a PHP script to read “Movie.xml” file and print all MovieTitle and ActorName of file using
+DOMDocument Parser. “Movie.xml” file should contain following information with at least 5 records
+with values. MovieInfoMovieNo, MovieTitle, ActorName ,ReleaseYear -->
+
+<movieList>
+    <movie>
+        <movieInfo>Action</movieInfo>
+        <movieNo>1</movieNo>
+        <movieTitle>Pushpa</movieTitle>
+        <actorName>Allu Arjun</actorName>
+        <releaseYear>2021</releaseYear>
+    </movie>
+     <movie>
+        <movieInfo>Romantic</movieInfo>
+        <movieNo>2</movieNo>
+        <movieTitle>Ishaqjade</movieTitle>
+        <actorName>Kappoor</actorName>
+        <releaseYear>2014</releaseYear>
+    </movie>
+     <movie>
+        <movieInfo>Comedy</movieInfo>
+        <movieNo>3</movieNo>
+        <movieTitle>Kisko Kisko Pyaar kar</movieTitle>
+        <actorName>Kapil</actorName>
+        <releaseYear>2017</releaseYear>
+    </movie>
+</movieList>
