@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        function validationfrom(){
+            var un= parseInt(document.getElementById("uname").value);
+            var pass= parseInt(document.getElementById("pass").value);
+
+            if(un=="" || un==null){
+                alert("Enter Username!");
+                return false;
+            }
+            else if(pass.lenght<8){
+                alert("Password must contain 8 charaters");
+                return false;
+            }
+        }
+    </script>
+</head>
+<body>
+    <form onsubmit="return validationfrom()">
+        Enter Username:<input type="text" id="uname"><br>
+        Enter Password:<input type="password" id="pass"><br>
+        <input type="submit" value="Login">
+    </form>
+</body>
+</html>

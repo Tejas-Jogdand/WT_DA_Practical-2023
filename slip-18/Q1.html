@@ -1,0 +1,25 @@
+<!-- Write a Java Script Program to print Fibonacci numbers on onclick event. -->
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        function Fibonacci(){
+            let n=parseInt(document.getElementById("no").value);
+            let n1=0, n2=1, sum, i;
+
+            for(i=1;i<n;i++){
+                document.writeln(n1);
+                sum=n1+n2;
+                n1=n2;
+                n2=sum;
+            }
+        }
+    </script>
+</head>
+<body>
+    <form onsubmit="return Fibonacci()">
+        Enter how many number: <input type="text" id="no">
+        <input type="submit" value="Show series">
+    </form>
+</body>
+</html>
