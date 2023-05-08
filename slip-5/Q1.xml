@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Create XML file named “Item.xml”with item-name, item-rate, item quantity Store the details of 5
+Items of different Types -->
+<itemlist>
+    <item>
+        <item-name>aaa</item-name>
+        <item-rate>120</item-rate>
+        <item-quantity>3</item-quantity>
+    </item>
+    <item>
+        <item-name>bbb</item-name>
+        <item-rate>100</item-rate>
+        <item-quantity>5</item-quantity>
+    </item>
+    <item>
+        <item-name>ccc</item-name>
+        <item-rate>150</item-rate>
+        <item-quantity>1</item-quantity>
+    </item>
+    <item>
+        <item-name>ddd</item-name>
+        <item-rate>140</item-rate>
+        <item-quantity>6</item-quantity>
+    </item>
+    <item>
+        <item-name>eee</item-name>
+        <item-rate>110</item-rate>
+        <item-quantity>2</item-quantity>
+    </item>
+</itemlist>
