@@ -1,3 +1,6 @@
+<!-- Write a PHP script to create student.xml file which contains student roll no, name, address, college
+and course. Print students detail of specific course in tabular format after accepting course as input. -->
+
 <!DOCTYPE html>
 <html>
 <body>

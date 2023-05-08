@@ -1,3 +1,5 @@
+<!-- Write a PHP script to keep track of number of times the web page has been accessed (Use Session
+Tracking). -->
 <html>
 <head>
 <title> Number of times the web page has been viited.</title>

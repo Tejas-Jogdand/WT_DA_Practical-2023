@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Create a XML file which gives details of books available in “Bookstore” from following
+categories.
+1) Yoga
+2) Story
+3) Technical -->
+
+
+<BookStore>
+    <Book category="Yoga">
+        <Book_Title> Miracle Moring</Book_Title>
+        <Book_Author> XYZ</Book_Author>
+        <Book_Price> 105 RS</Book_Price>
+    </Book>
+    <Book category="Story">
+        <Book_Title> The Alchemist</Book_Title>
+        <Book_Author> ads</Book_Author>
+        <Book_Price> 140 RS</Book_Price>
+    </Book>
+    <Book category="Technical">
+        <Book_Title> The lost battle</Book_Title>
+        <Book_Author> qwe</Book_Author>
+        <Book_Price> 150 RS</Book_Price>
+    </Book>
+</BookStore>

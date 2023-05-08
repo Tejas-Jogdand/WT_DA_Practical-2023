@@ -1,0 +1,30 @@
+<!-- Write a JavaScript function to validate username and password for a membership form. -->
+
+<html>
+<body>
+    <form onsubmit="return validation()">
+        Enter username:<input type="text" name="user" id="un"><br>
+        Enter Password:<input type="text" name="pass" id="ps"><br>
+        <input type="submit" value="Log in">
+    </form>
+    <script>
+        function validation(){
+            let un=document.getElementById("un").value;
+            let ps=document.getElementById("ps").value;
+
+            if(un==null || ps==""){
+                alert("Enter Password!");
+            }
+            else if(un=="" || ps==null){
+                alert("Enter Username!");
+            }
+            else if(un==ps){
+                alert("Welcome");
+            }
+            else{
+                alert("Invalid");
+            }
+    }
+    </script>
+</body>
+</html>
